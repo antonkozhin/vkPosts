@@ -29,7 +29,7 @@ class AuthViewController: UIViewController {
 extension AuthViewController: AuthView {
     
     func authSuccess() {
-        self.dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     func  authFail() {

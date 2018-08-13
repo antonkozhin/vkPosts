@@ -38,6 +38,7 @@
 		443AD63A211F21AF00F4668E /* RestAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD639211F21AF00F4668E /* RestAttachment.swift */; };
 		443AD63F211F249000F4668E /* RestPhotoAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD63E211F249000F4668E /* RestPhotoAttachment.swift */; };
 		443AD641211F255300F4668E /* RestPhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD640211F255300F4668E /* RestPhotoSize.swift */; };
+		443AD6432121715100F4668E /* CookieStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD6422121715100F4668E /* CookieStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		443AD639211F21AF00F4668E /* RestAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAttachment.swift; sourceTree = "<group>"; };
 		443AD63E211F249000F4668E /* RestPhotoAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPhotoAttachment.swift; sourceTree = "<group>"; };
 		443AD640211F255300F4668E /* RestPhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPhotoSize.swift; sourceTree = "<group>"; };
+		443AD6422121715100F4668E /* CookieStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieStorage.swift; sourceTree = "<group>"; };
 		A7CCA77C54A80ADACF3C3BB5 /* Pods_VkPosts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VkPosts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B32B2DD40C096830DA9A65 /* Pods-VkPosts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkPosts.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkPosts/Pods-VkPosts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +181,7 @@
 				443AD5EB211EC59F00F4668E /* UserInfoProvider.swift */,
 				443AD611211ED77200F4668E /* String+Additions.swift */,
 				443AD62F211F162400F4668E /* Constants.swift */,
+				443AD6422121715100F4668E /* CookieStorage.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				443AD608211ED51B00F4668E /* MainInteractor.swift in Sources */,
 				443AD60B211ED52700F4668E /* MainRouter.swift in Sources */,
 				443AD641211F255300F4668E /* RestPhotoSize.swift in Sources */,
+				443AD6432121715100F4668E /* CookieStorage.swift in Sources */,
 				443AD620211EDC3000F4668E /* AuthViewController.swift in Sources */,
 				443AD638211F20A200F4668E /* RestLikes.swift in Sources */,
 				443AD610211ED74800F4668E /* MoyaProvider+ObjectMapper.swift in Sources */,

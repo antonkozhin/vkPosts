@@ -12,8 +12,7 @@ extension MainRouter: MainWireframe {
 
 extension MainRouter: MainConfigurator {
     
-    static func assembleModule() -> UIViewController {
-        let view = MainViewController(nibName: "MainViewController", bundle: nil)
+    static func assembleModule(view: MainViewController) {
         let presenter = MainPresenter()
         let router = MainRouter()
         let interactor = MainInteractor()
@@ -27,8 +26,6 @@ extension MainRouter: MainConfigurator {
         router.view = view
 
         interactor.output = presenter
-
-        return view
     }
 
 }

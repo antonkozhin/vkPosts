@@ -15,14 +15,29 @@ class AuthPresenter {
         return parameters
     }
     
+    fileprivate func getStringParameter(parameters: [String: String], forKey key: String) -> String? {
+        return parameters[key]
+    }
+    
+    fileprivate func getIntParameter(parameters: [String: String], forKey key: String) -> Int? {
+        guard let stringParameter = getStringParameter(parameters: parameters, forKey: key) else {
+            return nil
+        }
+        return Int(stringParameter)
+    }
+    
 }
 
 extension AuthPresenter: AuthPresentation {
 
     func urlLoaded(url: String) {
         let queryParameters = getQueryParameters(url: url)
-        if let accessToken = queryParameters["access_token"] {
+        if let accessToken = getStringParameter(parameters: queryParameters, forKey: "access_token"),
+            let userId = getIntParameter(parameters: queryParameters, forKey: "user_id"),
+            let expiresIn = getIntParameter(parameters: queryParameters, forKey: "expires_in") {
             UserInfoProvider.instance.setAccessToken(accessToken)
+            UserInfoProvider.instance.setUserId(userId)
+            UserInfoProvider.instance.setExpiresIn(expiresIn)
             view?.authSuccess()
         } else {
             view?.authFail()
