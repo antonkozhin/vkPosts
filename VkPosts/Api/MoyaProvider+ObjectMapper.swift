@@ -17,8 +17,8 @@ public extension PrimitiveSequence where TraitType == SingleTrait, ElementType =
                         return Disposables.create()
                     }
                     single(.success(restObject))
-                } else if let errorMessage = object.errorMessage {
-                    let apiError = ApiError(code: object.errorCode, message: errorMessage)
+                } else if let error = object.error {
+                    let apiError = ApiError(code: error.code, message: error.message)
                     single(.error(apiError))
                 }
                 return Disposables.create()
@@ -40,8 +40,8 @@ public extension PrimitiveSequence where TraitType == SingleTrait, ElementType =
                         return Disposables.create()
                     }
                     single(.success(restObjects))
-                } else if let errorMessage = object.errorMessage {
-                    let apiError = ApiError(code: object.errorCode, message: errorMessage)
+                } else if let error = object.error {
+                    let apiError = ApiError(code: error.code, message: error.message)
                     single(.error(apiError))
                 }
                 return Disposables.create()

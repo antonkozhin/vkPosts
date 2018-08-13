@@ -18,7 +18,6 @@
 		443AD602211ED4EC00F4668E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 443AD600211ED4EC00F4668E /* MainViewController.xib */; };
 		443AD603211ED4EC00F4668E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD601211ED4EC00F4668E /* MainViewController.swift */; };
 		443AD605211ED50900F4668E /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD604211ED50900F4668E /* MainPresenter.swift */; };
-		443AD608211ED51B00F4668E /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD607211ED51B00F4668E /* MainInteractor.swift */; };
 		443AD60B211ED52700F4668E /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD60A211ED52700F4668E /* MainRouter.swift */; };
 		443AD60E211ED53800F4668E /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD60D211ED53800F4668E /* MainContract.swift */; };
 		443AD610211ED74800F4668E /* MoyaProvider+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD60F211ED74800F4668E /* MoyaProvider+ObjectMapper.swift */; };
@@ -39,6 +38,14 @@
 		443AD63F211F249000F4668E /* RestPhotoAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD63E211F249000F4668E /* RestPhotoAttachment.swift */; };
 		443AD641211F255300F4668E /* RestPhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD640211F255300F4668E /* RestPhotoSize.swift */; };
 		443AD6432121715100F4668E /* CookieStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD6422121715100F4668E /* CookieStorage.swift */; };
+		443AD65721217C2800F4668E /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD65521217C2800F4668E /* NewsFeedViewController.swift */; };
+		443AD65921217C3000F4668E /* NewsFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD65821217C3000F4668E /* NewsFeedPresenter.swift */; };
+		443AD65B21217C3700F4668E /* NewsFeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD65A21217C3700F4668E /* NewsFeedInteractor.swift */; };
+		443AD65D21217C3D00F4668E /* NewsFeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD65C21217C3D00F4668E /* NewsFeedRouter.swift */; };
+		443AD65F21217C4300F4668E /* NewsFeedContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD65E21217C4300F4668E /* NewsFeedContract.swift */; };
+		443AD66121217E1C00F4668E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD66021217E1C00F4668E /* Post.swift */; };
+		443AD66321219ED400F4668E /* RestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD66221219ED400F4668E /* RestError.swift */; };
+		443AD6652121A17200F4668E /* RestViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443AD6642121A17200F4668E /* RestViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,7 +62,6 @@
 		443AD600211ED4EC00F4668E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = View/MainViewController.xib; sourceTree = "<group>"; };
 		443AD601211ED4EC00F4668E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = View/MainViewController.swift; sourceTree = "<group>"; };
 		443AD604211ED50900F4668E /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainPresenter.swift; path = Presenter/MainPresenter.swift; sourceTree = "<group>"; };
-		443AD607211ED51B00F4668E /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainInteractor.swift; path = Interactor/MainInteractor.swift; sourceTree = "<group>"; };
 		443AD60A211ED52700F4668E /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainRouter.swift; path = Router/MainRouter.swift; sourceTree = "<group>"; };
 		443AD60D211ED53800F4668E /* MainContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainContract.swift; path = Contract/MainContract.swift; sourceTree = "<group>"; };
 		443AD60F211ED74800F4668E /* MoyaProvider+ObjectMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+ObjectMapper.swift"; sourceTree = "<group>"; };
@@ -79,6 +85,14 @@
 		443AD63E211F249000F4668E /* RestPhotoAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPhotoAttachment.swift; sourceTree = "<group>"; };
 		443AD640211F255300F4668E /* RestPhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestPhotoSize.swift; sourceTree = "<group>"; };
 		443AD6422121715100F4668E /* CookieStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieStorage.swift; sourceTree = "<group>"; };
+		443AD65521217C2800F4668E /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsFeedViewController.swift; path = View/NewsFeedViewController.swift; sourceTree = "<group>"; };
+		443AD65821217C3000F4668E /* NewsFeedPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsFeedPresenter.swift; path = Presenter/NewsFeedPresenter.swift; sourceTree = "<group>"; };
+		443AD65A21217C3700F4668E /* NewsFeedInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsFeedInteractor.swift; path = Interactor/NewsFeedInteractor.swift; sourceTree = "<group>"; };
+		443AD65C21217C3D00F4668E /* NewsFeedRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsFeedRouter.swift; path = Router/NewsFeedRouter.swift; sourceTree = "<group>"; };
+		443AD65E21217C4300F4668E /* NewsFeedContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsFeedContract.swift; path = Contract/NewsFeedContract.swift; sourceTree = "<group>"; };
+		443AD66021217E1C00F4668E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		443AD66221219ED400F4668E /* RestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestError.swift; sourceTree = "<group>"; };
+		443AD6642121A17200F4668E /* RestViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestViews.swift; sourceTree = "<group>"; };
 		A7CCA77C54A80ADACF3C3BB5 /* Pods_VkPosts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VkPosts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B32B2DD40C096830DA9A65 /* Pods-VkPosts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkPosts.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkPosts/Pods-VkPosts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +155,7 @@
 		443AD5E4211EC3AF00F4668E /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				443AD6442121782100F4668E /* NewsFeed */,
 				443AD61D211EDB9500F4668E /* Auth */,
 				443AD5F1211ED47900F4668E /* Main */,
 			);
@@ -171,6 +186,8 @@
 				443AD639211F21AF00F4668E /* RestAttachment.swift */,
 				443AD63E211F249000F4668E /* RestPhotoAttachment.swift */,
 				443AD640211F255300F4668E /* RestPhotoSize.swift */,
+				443AD66221219ED400F4668E /* RestError.swift */,
+				443AD6642121A17200F4668E /* RestViews.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,7 +208,6 @@
 			children = (
 				443AD60C211ED52E00F4668E /* Contract */,
 				443AD609211ED51E00F4668E /* Router */,
-				443AD606211ED51000F4668E /* Interactor */,
 				443AD5FD211ED4D200F4668E /* Presenter */,
 				443AD5FC211ED4B500F4668E /* View */,
 			);
@@ -213,14 +229,6 @@
 				443AD604211ED50900F4668E /* MainPresenter.swift */,
 			);
 			name = Presenter;
-			sourceTree = "<group>";
-		};
-		443AD606211ED51000F4668E /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				443AD607211ED51B00F4668E /* MainInteractor.swift */,
-			);
-			name = Interactor;
 			sourceTree = "<group>";
 		};
 		443AD609211ED51E00F4668E /* Router */ = {
@@ -276,8 +284,61 @@
 		443AD63B211F22F100F4668E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				443AD66021217E1C00F4668E /* Post.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		443AD6442121782100F4668E /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				443AD65321217BFA00F4668E /* Contract */,
+				443AD65221217BF300F4668E /* Router */,
+				443AD65121217BEA00F4668E /* Interactor */,
+				443AD65021217B9B00F4668E /* Presenter */,
+				443AD64F21217B9400F4668E /* View */,
+			);
+			path = NewsFeed;
+			sourceTree = "<group>";
+		};
+		443AD64F21217B9400F4668E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				443AD65521217C2800F4668E /* NewsFeedViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		443AD65021217B9B00F4668E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				443AD65821217C3000F4668E /* NewsFeedPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		443AD65121217BEA00F4668E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				443AD65A21217C3700F4668E /* NewsFeedInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		443AD65221217BF300F4668E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				443AD65C21217C3D00F4668E /* NewsFeedRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		443AD65321217BFA00F4668E /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				443AD65E21217C4300F4668E /* NewsFeedContract.swift */,
+			);
+			name = Contract;
 			sourceTree = "<group>";
 		};
 		8B9B181AF16011901C61500D /* Pods */ = {
@@ -451,18 +512,25 @@
 				443AD63A211F21AF00F4668E /* RestAttachment.swift in Sources */,
 				443AD634211F1E4000F4668E /* RestPost.swift in Sources */,
 				443AD5EE211EC82200F4668E /* ApiService.swift in Sources */,
+				443AD65F21217C4300F4668E /* NewsFeedContract.swift in Sources */,
 				442D9843211EBF1F00B6011A /* AppDelegate.swift in Sources */,
 				443AD5E9211EC3F000F4668E /* Network.swift in Sources */,
+				443AD6652121A17200F4668E /* RestViews.swift in Sources */,
 				443AD5EC211EC59F00F4668E /* UserInfoProvider.swift in Sources */,
 				443AD626211EDF3900F4668E /* BaseResponse.swift in Sources */,
 				443AD622211EDE6100F4668E /* ApiError.swift in Sources */,
 				443AD624211EDE8D00F4668E /* RequestErrorCode.swift in Sources */,
+				443AD65B21217C3700F4668E /* NewsFeedInteractor.swift in Sources */,
 				443AD605211ED50900F4668E /* MainPresenter.swift in Sources */,
+				443AD65921217C3000F4668E /* NewsFeedPresenter.swift in Sources */,
+				443AD66321219ED400F4668E /* RestError.swift in Sources */,
 				443AD632211F1DFD00F4668E /* RestNewsFeed.swift in Sources */,
-				443AD608211ED51B00F4668E /* MainInteractor.swift in Sources */,
 				443AD60B211ED52700F4668E /* MainRouter.swift in Sources */,
+				443AD66121217E1C00F4668E /* Post.swift in Sources */,
 				443AD641211F255300F4668E /* RestPhotoSize.swift in Sources */,
+				443AD65D21217C3D00F4668E /* NewsFeedRouter.swift in Sources */,
 				443AD6432121715100F4668E /* CookieStorage.swift in Sources */,
+				443AD65721217C2800F4668E /* NewsFeedViewController.swift in Sources */,
 				443AD620211EDC3000F4668E /* AuthViewController.swift in Sources */,
 				443AD638211F20A200F4668E /* RestLikes.swift in Sources */,
 				443AD610211ED74800F4668E /* MoyaProvider+ObjectMapper.swift in Sources */,

@@ -13,16 +13,6 @@ protocol MainPresentation: class {
     
 }
 
-protocol MainInteractorOutput: class {
-
-}
-
-protocol MainProvider: class {
-    
-    func fetchPosts()
-
-}
-
 protocol MainWireframe: class {
 
 }

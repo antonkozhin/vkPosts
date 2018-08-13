@@ -8,7 +8,7 @@ class RestPost: Mappable {
     var attachments: [RestAttachment]!
     var likes: RestLikes!
     var reposts: RestReposts!
-    var views: Int!
+    var views: RestViews!
     
     init() {
         

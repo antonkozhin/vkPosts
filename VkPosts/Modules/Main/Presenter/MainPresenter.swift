@@ -2,7 +2,6 @@ class MainPresenter {
 
     weak var view: MainView?
     var router: MainWireframe!
-    var interactor: MainProvider!
 }
 
 extension MainPresenter: MainPresentation {
@@ -16,9 +15,5 @@ extension MainPresenter: MainPresentation {
         CookieStorage.instance.clear()
         view?.reloadViews(isLogged: isLogged())
     }
-
-}
-
-extension MainPresenter: MainInteractorOutput {
 
 }

@@ -19,9 +19,9 @@ class AuthViewController: UIViewController {
         super.viewDidLoad()
         presenter = AuthPresenter()
         presenter?.view = self
-        let myURL = URL(string: "https://oauth.vk.com/authorize?client_id=6658433&response_type=token&v=5.80")
-        let myRequest = URLRequest(url: myURL!)
-        webView.load(myRequest)
+        let url = URL(string: "https://oauth.vk.com/authorize?client_id=6658433&scope=friends,wall&response_type=token&v=5.80")
+        let request = URLRequest(url: url!)
+        webView.load(request)
     }
     
 }

@@ -1,18 +1,18 @@
 import RxSwift
 
-class MainInteractor {
-
-    weak var output: MainInteractorOutput?
+class NewsFeedInteractor {
+    
+    weak var output: NewsFeedInteractorOutput?
     
     fileprivate let disposeBag = DisposeBag()
     
     func providePosts() {
-
+        output?.postsFetched([])
     }
     
 }
 
-extension MainInteractor: MainProvider {
+extension NewsFeedInteractor: NewsFeedProvider {
     
     func fetchPosts() {
         Network.instance.provider.rx.request(.getNewsFeed(filters: "post", count: 1, startFrom: nil))
@@ -28,5 +28,5 @@ extension MainInteractor: MainProvider {
                 }
             }.disposed(by: disposeBag)
     }
-
+    
 }
